@@ -1,0 +1,16 @@
+h1 {
+    font-size: 48px;
+    font-family: Marker Felt;
+    color: red;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -5px;
+}
+
+a {
+  font-size: 36px;
+}
+
+background {
+            background-color: light blue;
+}
