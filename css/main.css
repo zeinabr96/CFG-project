@@ -1,0 +1,8 @@
+body {
+      padding-top: 10px;
+}
+
+.dropdown-item { background-color: black;
+                  color: white;
+                  text-align-last: center;
+}
