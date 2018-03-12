@@ -1,0 +1,12 @@
+
+  body {
+    padding-top: 50px;
+
+  background-image: url("cafe_background.jpg");
+  background-size: cover;
+}
+.boxed {
+  border: 1px solid black;
+  background-color: rgba(169, 169, 169, 0.5);
+
+}
