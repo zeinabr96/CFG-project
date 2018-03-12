@@ -4,73 +4,44 @@
     <title>LSEats</title>
     <link href='css/bootstrap.css' rel='stylesheet'>
     <link href='css/main.css' rel='stylesheet'>
+    <link href="form.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <style>
 
-    form {
-      /* Just to center the form on the page */
-      margin: 0 auto;
-      width: 400px;
-      /* To see the outline of the form */
-      padding: 1em;
-      border: 2px solid #000;
-      border-radius: 1em;
-    }
-
-    form div + div {
-      margin-top 1em;
-    }
-
-    label {
-      /* To make sure that all labels have the same size and are properly aligned */
-      display: inline-block;
-      width: 90px;
-      text-align: right;
-    }
-
-    input, textarea {
-      /* TO make sure that all text fields have the same font settings. By default, textareas have a monospace font */
-      font: 1em; sans-serif;
-
-      /* To give the same size to all text fields */
-      width: 300px;
-      box-sizing: border-box;
-
-      /* To harmonise the look and the feel of text field border */
-      border: 2px solid #000;
-    }
-
-    input: focus, textarea:focuss {
-      /* To give a little highlight on active elements */
-      border-color: #000;
-    }
-
-    textarea {
-      /* To properly alight multiline text fields with their labels */
-      vertical-align: top;
-
-      /* To give enough room to type some text */
-      height: 5em;
-    }
-
-    .button {
-      /* This extra margin represents roughly the same space as the space between the labels and their text fields */
-      padding-left: 90px; /* same size as the label elements */
-    }
-
-    button {
-      /* This extra margin represent roughly the same space as the space between the labels and their text fields */
-      margin-left: -5em;
+    h2 {
+      padding-top: 50px;
+      text-align: center;
     }
 
     </style>
   </head>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span></button>
+        <a href="#" class="navbar-brand">LSEats</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="categories.html">Places to Visit</a></li>
+        <li><a href="reviewoftheweek.html">Review of the Week</a></li>
+        <li class="active"><a href="contactus.html">Contact Us</a></li>
+      </ul>
+  </div>
+</div>
+</nav>
   <body>
-    <h1>Contact Us</h1>
-    <h2>Fill in this form to contact us:</h2>
-    <form action="/my-handling-form-page" method="post">
+    <h2>We'd love to hear from you!</h2>
+
+      <form action="/my-handling-form-page" method="post">
       <div>
         <label for="name">Name:</label>
         <input type="text" id="name" name="user_name">
@@ -87,5 +58,6 @@
         <button type="submit">Send your message to us!</button>
       </div>
     </form>
+
   </body>
 </html>
