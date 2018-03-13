@@ -1,13 +1,3 @@
 body  {
   padding - top :   700px ;
 }
-
-.dropdown-menu { background-color: black;
-                text-decoration-color: white;
-                  text-align-last: center;
-}
-
-.search {
-        align-items: flex-end;
-        
-}
