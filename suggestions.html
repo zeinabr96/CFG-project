@@ -2,15 +2,21 @@
 <html>
   <head>
     <title>Suggestions</title>
+    <link href="form.css" rel="stylesheet">
     <link href='css/bootstrap.css' rel='stylesheet'>
     <link href='style.css' rel='stylesheet'>
-    <link href="form.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </head>
-  <body>
+    <style>
 
+    h2 {
+      padding-top: 50px;
+      text-align: center;
+    }
+
+    </style>
+  </head>
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -41,8 +47,9 @@
 </div>
 </div>
 </nav>
-
-  <form action="review of the week" method="post">
+<body>
+<h2>Know any cool spots? Send us your recommendations!</h2>
+<form action="review of the week" method="post">
     <div>
       <label for="name">Name:</label>
       <input type="text" id="name" name="user_name">
@@ -55,7 +62,8 @@
       <label for="select">What category is your venue?</label>
         <select id="select">
           <option value="">Choose...</option>
-            <option value="">Cute Cafes</option>
+            <option value="">Restaurants</option>
+            <option value="">Cute Cafés</option>
             <option value="">Trendy Bars</option>
             <option value="">Late Night Snacks</option>
         </select>

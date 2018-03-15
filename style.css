@@ -1,3 +1,6 @@
+body  {
+  padding - top :   700px ;
+}
 
 intrinsic-container {
   position: relative;
@@ -22,6 +25,8 @@ intrinsic-container {
   width: 100%;
   height: 100%;
 }
+/*navbar*/
+
 /*responsive navbar*/
 @media screen and (max-width: 600px){
     ul.nav navbar-nav li.right
