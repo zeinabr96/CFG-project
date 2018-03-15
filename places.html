@@ -1,12 +1,17 @@
 <!DOCTYPE.html>
 <html>
   <head>
-    <h1>Cute Cafes</h1>
+    <title>Places</title>
+    <link href='css/bootstrap.css' rel='stylesheet'>
+    <link href='style.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <link href='css/places.css' rel='stylesheet'>
     <link href='css/bootstrap.css' rel='stylesheet'>
-    <link href='css/main.css' rel='stylesheet'>
+    <link href='style.css' rel='stylesheet'>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
       <div class="navbar-header">
@@ -21,13 +26,22 @@
         <ul class="nav navbar-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li class="active"><a href="places.html">Places to Visit</a></li>
-          <li><a href="reviewoftheweek.html">Review of the Week</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="places.html">Places to Visit</a></li>
+          <li><a href="suggestions.html">Review of the Week</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Contact Us
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="suggestions.html">Suggest a place</a>
+              <a class="dropdown-item" href="contactus.html">Send us a message</a>
+            </div>
+          </li>
         </ul>
     </div>
   </div>
   </nav>
+  
     <h2> We've found the best cute cafes around campus which are great for studying! </h2>
     <div class="tab">
       <button class="tablinks" onclick="open(event, 'SOHO Coffee Co.')">SOHO Coffee Co.</button>
