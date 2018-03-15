@@ -1,0 +1,72 @@
+<!DOCTYPE.html>
+<html>
+  <head>
+    <link href='css/bootstrap.css' rel='stylesheet'>
+    <link href='style.css' type='text/css' rel='stylesheet'>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="./index.html">
+            <img alt="LSEats" src="./images/Lseats.png" style="max-width:40px;">
+          </a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="places.html">Places to Visit</a></li>
+          <li><a href="featured.html">Featured</a></li>
+          <li class="active" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">Contact Us</a>
+            <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./suggestions.html">Suggest a place</a>
+                    <a class="dropdown-item" href="./contactus.html">Send us a message</a>
+                  </div>
+          </li>
+        </ul>
+    </div>
+  </div>
+  </nav>
+<form action="review of the week" method="post">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+  <div>
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="user_mail">
+  </div>
+  <div>
+    <label for="select">What category is your venue?</label>
+      <select id="select">
+        <option value="">Choose...</option>
+          <option value="">Cute Cafes</option>
+          <option value="">Trendy Bars</option>
+          <option value="">Late Night Snacks</option>
+      </select>
+  </div>
+  <div>
+    <label for="venue">Name of venue:</label>
+    <input type="text" id="venue" name="user_venue">
+  </div>
+  <div>
+      <label for="date">Date Visited:</label>
+      <input type="date" id="date">
+  <div>
+      <label for="msg">Write your review:</label>
+      <textarea id="msg" name="user_message"></textarea>
+  </div>
+  <div class="button">
+    <button type="submit">Send your message to us!</button>
+  </div>
+</form>
+</body>
+</html>
