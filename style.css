@@ -1,5 +1,7 @@
 body  {
-  padding - top :   700px ;
+  padding-top :   50px;
+  margin: 0;
+  line-height: 1.5;
 }
 
 intrinsic-container {
@@ -26,6 +28,10 @@ intrinsic-container {
   height: 100%;
 }
 /*navbar*/
+.navbar{
+  height: 70px;
+padding: .5rem 1rem;
+}
 
 /*responsive navbar*/
 @media screen and (max-width: 600px){
