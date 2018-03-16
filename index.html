@@ -3,13 +3,12 @@
     <head>
       <title>LSEats</title>
       <link href='css/bootstrap.css' rel='stylesheet'>
-      <link href='css/main.css' rel='stylesheet'>
+      <link href='style.css' rel='stylesheet'>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
     </head>
-    <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
@@ -17,7 +16,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span></button>
-            <a href="#" class="navbar-brand">LSEats</a>
+            <a href="index.html" class="navbar-brand"><img alt="Lseats" src="./images/Lseats.png" style="max-width:40px;"></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
           <ul class="nav navbar-nav">
@@ -25,26 +24,24 @@
             <li><a href="about.html">About Us</a></li>
             <li><a href="places.html">Places to Visit</a></li>
             <li><a href="reviewoftheweek.html">Review of the Week</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Contact Us
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="suggestions.html">Suggest a place</a>
+                <a class="dropdown-item" href="contactus.html">Send us a message</a>
+              </div>
+            </li>
           </ul>
       </div>
     </div>
   </nav>
-        <h3> Good Food Map </h3>
+  <body>
+        <h3> Food Map </h3>
         <div id="map"></div>
-        <style type="text/css">
-            body, html
-            {
-                margin: 0; padding: 0; height: 100%; overflow: hidden;
-            }
-
-            #content
-            {
-                position:absolute; left: 0; right: 0; bottom: 0; top: 0px;
-            }
-        </style>
-        <iframe width="100%" height="100%" frameborder="0" src="https://www.google.com/maps/d/embed?mid=1j9o-5eI5E4pHRkrDTYWwj3kHCpMiJTbW">
-        </iframe>
-      </body>
+        <div style="height:600px; width:100%; display:inline-block; overflow:hidden;">
+        <iframe style="position:relative; top:-50px;border: none"; src="https://www.google.com/maps/d/embed?mid=1j9o-5eI5E4pHRkrDTYWwj3kHCpMiJTbW" width="100%" height="100%"></iframe>
+        </div>
   </body>
   </html>

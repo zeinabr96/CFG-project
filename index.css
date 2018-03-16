@@ -13,3 +13,7 @@ a {
   position: relative;
   top: -10px;
 }
+
+body {
+  padding-top: 50px;
+}
