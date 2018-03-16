@@ -1,0 +1,17 @@
+.img-circle { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 400px;
+}
+
+h1 { text-align: center;
+    font-size: 48px;
+}
+
+h2 { text-align:center;
+    font-size: 18px;
+}
+
+body { font-family: "Courier New"; Courier; monospace;
+}
