@@ -1,4 +1,4 @@
-form {
+form#contact{
   /* Just to center the form on the page */
   margin: 0 auto;
   margin-top: 40px;
@@ -46,13 +46,8 @@ textarea {
   /* To give enough room to type some text */
   height: 5em;
 }
-
-.button {
+.button#submit {
   /* This extra margin represents roughly the same space as the space between the labels and their text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  /* This extra margin represent roughly the same space as the space between the labels and their text fields */
+  padding: 90px; /* same size as the label elements */
   margin-left: -5em;
 }
