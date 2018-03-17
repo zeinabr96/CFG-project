@@ -29,23 +29,25 @@ $(about.html).ready(function(){
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
-            <li class= "active"><a href="about.html">About Us</a></li>
+            <li class="active"><a href="about.html">About Us</a></li>
             <li><a href="places.html">Places to Visit</a></li>
             <li><a href="reviewoftheweek.html">Review of the Week</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-          </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact Us
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbardrop">
+                <a class="dropdown-item" href="suggestions.html">Suggestions</a>
+                <a class="dropdown-item" href="contactus.html">Message</a>
+              </ul>
+              <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search LSEats">
+                  </div>
+              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+            </form>
       </div>
-      <div>
-        <li id="search-bar" class="pull right">
-                   <form class="navbar-form navbar-right" role="search">
-                       <div class="form-group">
-                           <input type="text" class="form-control" placeholder="Search LSEats">
-                       </div>
-                   <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-                 </form>
-               </li>
-    </ul>
-</div>
+    </div>
   </nav>
   <head>
     <link href='css/about.css' rel='stylesheet'>

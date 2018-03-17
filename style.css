@@ -29,10 +29,14 @@ intrinsic-container {
 }
 /*navbar*/
 .navbar{
-  height: 70px;
+  height: 65px;
 padding: .5rem 1rem;
 }
 
+.navbar-brand{
+  max-height: 100px;
+  max-width: 100px;
+}
 /*responsive navbar*/
 @media screen and (max-width: 600px){
     ul.nav navbar-nav li.right
