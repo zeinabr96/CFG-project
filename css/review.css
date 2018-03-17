@@ -1,14 +1,4 @@
-.img-circle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
-    max-width: 400px;
-    float: none;
-    padding-top: 100px;
-}
-
-h1 {
+h1 { padding-top: 50px;
   text-align: center;
   font-size: 48px;
   font-weight: bold;
@@ -19,10 +9,9 @@ h2 { text-align:center;
     color: red;
 }
 
-<<<<<<< HEAD
 p{
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .name { text-align: right;
@@ -32,22 +21,13 @@ p{
 a { font-size: 16px;
     font-style: italic;
     color: red;}
-=======
-h3{
-  text-justify;
-  font-size: 18px;
-  font-weight: lighter;
-  letter-spacing: 0.5;
-}
-body {
-  font-family: 'Special Elite', cursive;
-  padding-top: 70px;
-}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img{
       width: 70%;
       max-height: 480;
       margin: auto;
+      padding-bottom: 50px;
   }
 
 .carousel-control.left, .carousel-control.right {
@@ -61,4 +41,3 @@ body {
 .carousel:hover .carousel-control {
   visibility: visible;
 }
->>>>>>> 62416526a2c48465dd93e639eb5de9bdaa535d86
