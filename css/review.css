@@ -1,17 +1,28 @@
-.img-circle { display: block;
+.img-circle {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    width: 400px;
+    max-height: 300px;
+    max-width: 400px;
+    float: none;
 }
 
-h1 { text-align: center;
-    font-size: 48px;
+h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 h2 { text-align:center;
-    font-size: 18px;
+    font-size: 30px;
+    color: red;
 }
 
-body { font-family: "Courier New"; Courier; monospace;
+h3{
+  text-justify;
+  font-size: 25px;
+}
+body {
+  font-family: "Courier New"; Courier; monospace;
+  padding-top: 70px;
 }

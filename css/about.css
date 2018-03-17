@@ -1,7 +1,6 @@
 
   body {
-    padding-top: 50px;
-
+  padding-top: 50px;
   background-image: url("cafe_background.jpg");
   background-size: cover;
 }
@@ -14,4 +13,8 @@
   padding-bottom: 20px;
   padding-right: 20px;
   position: absolute;
+}
+
+.pull-right{
+  float: right;
 }
