@@ -1,13 +1,14 @@
+body{
+  padding-top: 70px;
+}
 form#contact{
   /* Just to center the form on the page */
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 15px;
   width: 400px;
   /* To see the outline of the form */
   padding: 1em;
-  border: 2px solid #9900FF;
-  border-radius: 1em;
-  background-color: black;
+  background-color: white;
 }
 
 form div + div {
@@ -16,10 +17,13 @@ form div + div {
 
 label {
   /* To make sure that all labels have the same size and are properly aligned */
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-  color: white;
+  display: block;
+  width: 800px;
+  text-align: left;
+  color: black;
+  padding: 0.25em;
+  font-weight: bold;
+
 }
 
 input, textarea {
@@ -31,23 +35,26 @@ input, textarea {
   box-sizing: border-box;
 
   /* To harmonise the look and the feel of text field border */
-  border: 2px solid #9900FF;
+  background-color: #c51915;
+  opacity: 50%;
 }
 
-input: focus, textarea:focuss {
+input: focus, textarea:focus {
   /* To give a little highlight on active elements */
   border-color: #9900FF;
 }
 
-textarea {
+textarea{
   /* To properly alight multiline text fields with their labels */
-  vertical-align: top;
+  vertical-align: left;
 
   /* To give enough room to type some text */
   height: 5em;
 }
+
+}
 .button#submit {
   /* This extra margin represents roughly the same space as the space between the labels and their text fields */
   padding: 90px; /* same size as the label elements */
-  margin-left: -5em;
+  margin: auto;
 }

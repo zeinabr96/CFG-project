@@ -41,6 +41,7 @@
         <div class="dropdown-menu" aria-labelledby="navbardrop">
           <a class="dropdown-item" href="suggestions.html">Suggestions</a>
           <a class="dropdown-item" href="contactus.html">Message</a>
+        </div>
         </ul>
         <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
@@ -63,13 +64,13 @@
       <input type="email" id="mail" name="user_mail">
     </div>
     <div>
-      <label for="select">What category is your venue?</label>
+      <label for="select">Category</label>
         <select id="select">
-          <option value="">Choose...</option>
+          <option value="">Select...</option>
+            <option value="">Coffee Shop</option>
+            <option value="">Takeaway</option>
             <option value="">Restaurants</option>
-            <option value="">Cute Cafés</option>
-            <option value="">Trendy Bars</option>
-            <option value="">Late Night Snacks</option>
+            <option value="">Bars</option>
         </select>
     </div>
     <div>
@@ -80,9 +81,10 @@
         <label for="date">Date Visited:</label>
         <input type="date" id="date">
     <div>
-        <label for="msg">Write your review:</label>
+        <label for="msg">Review:</label>
         <textarea id="msg" name="user_message"></textarea>
     </div>
+    <br>
     <div class="button">
       <button type="submit">Send your message to us!</button>
     </div>

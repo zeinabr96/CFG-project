@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
     <link href='css/bootstrap.css' rel='stylesheet'>
     <link href='css/main.css' rel='stylesheet'>
-    <link href='places.css' rel='stylesheet'>
+    <link href='css/places.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
@@ -41,6 +41,7 @@
             <div class="dropdown-menu" aria-labelledby="navbardrop">
               <a class="dropdown-item" href="suggestions.html">Suggestions</a>
               <a class="dropdown-item" href="contactus.html">Message</a>
+            </div>
             </ul>
             <form class="navbar-form navbar-right" role="search">
                 <div class="form-group">
@@ -53,32 +54,39 @@
       </nav>
       </nav>
   <body>
-<h2> We've found the best cute cafes around campus which are great for studying! <h2>
-    <div class="tab">
-      <button class="tablinks" onclick="open(event, 'SOHO Coffee Co.')">SOHO Coffee Co.</button>
-      <button class="tablinks" onclick="open(event, 'Hubbard and Bell')">Hubbard and Bell</button>
-      <button class="tablinks" onclick="open(event, 'Department of Coffee and Social Affairs')">Department of Coffee and Social Affairs</button>
-      <button class="tablinks" onclick="open(event, 'Holborn Grind')">Holborn Grind</button>
+  <!---header--->
+    <div class="header">
+    <h1>Places to Visit</h1>
+    <p>Choose a category by hovering over the images</p>
+  </div>
+  <!---Images--->
+  <div class="row" id="menu">
+    <div class="column">
+          <img lass="image-responsive" src="./images/coffee.jpg" alt="Coffee Shops">
+          <div class="overlay">
+            <h2><a href="coffee.html">Coffee Shops</a></h2>
+        </div>
     </div>
-
-    <div id="SOHO Coffee Co." class="tabcontent">
-      <h3>SOHO Coffee Co.</h3>
-      <p>SOHO Coffee Co. offer great options for breakfast, lunch and afternoon tea</p>
+    <div class="column">
+          <img class="image-responsive" src="./images/takeaway.jpg" alt="Takeaway">
+            <div class="overlay">
+              <h2><a href="takeaway.html">Takeaway</a></h2>
+          </div>
+      </div>
     </div>
-
-    <div id="Hubbard and Bell" class="tabcontent">
-      <h3>Hubbard and Bell</h3>
-      <p>Hubbard and Bell may seem a little more upmarket, but it's a great place to study with comfy chairs!</p>
-    </div>
-
-    <div id="Department of Coffee and Social Affairs" class="tabcontent">
-      <h3>Department of Coffee and Social Affairs</h3>
-      <p>A trendy cafe</p>
-    </div>
-
-    <div id="Holborn Grind" class="tabcontent">
-      <h3>Holborn Grind</h3>
-      <p>Great options for juice</p>
-    </div>
+    <div class="row" id="menu">
+    <div class="column">
+          <img class="image-responsive" src="./images/dinner.jpg" alt="Restaurants">
+          <div class="overlay">
+            <h2><a href="restaurants.html">Restaurants</a></h2>
+        </div>
+      </div>
+      <div class="column">
+            <img class="image-responsive" src="./images/bars.png" alt="bars">
+            <div class="overlay">
+              <h2><a href="bars.html">Bars</a></h2>
+          </div>
+      </div>
+  </div>
 </body>
 <html>

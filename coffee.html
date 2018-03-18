@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Coffee Shops</title>
+      <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+      <link href='css/bootstrap.css' rel='stylesheet'>
+      <link href='css/main.css' rel='stylesheet'>
+      <link href='css/places.css' rel='stylesheet'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    </head>
+    </head>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span></button>
+            <a href="index.html" class="navbar-brand"><img alt="Lseats" src="./images/Lseats.png" style="width:70px;height:40px;"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="active"><a href="places.html">Places to Visit</a></li>
+            <li><a href="reviewoftheweek.html">Review of the Week</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact Us
+              <span class="caret"></span></a>
+              <div class="dropdown-menu" aria-labelledby="navbardrop">
+                <a class="dropdown-item" href="suggestions.html">Suggestions</a>
+                <a class="dropdown-item" href="contactus.html">Message</a>
+              </div>
+              </ul>
+              <form class="navbar-form navbar-right" id="search" role="search">
+                  <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search LSEats">
+                  </div>
+              <button type="submit" class="btn btn-default" id="btn search"><span class="glyphicon glyphicon-search"></span></button>
+            </form>
+      </div>
+    </div>
+    </nav>
+<body>
+  <!---header--->
+    <div class="header">
+    <a href="./places.html" class="backbtn"><i class="fas fa-angle-double-left fa-5x" style="float:left; opacity: 0.08"></i></a>
+    <h1>Coffee Shops</h1>
+    <p>Looking for a space to study that isn't the library or a good place for coffee and a bite?</p>
+    <p>Here are some of the best coffee shops near LSE.</p>
+  </div>
+  <!---Images--->
+  <div class="row">
+    <div class="column">
+          <img lass="image-responsive" src="./images/grind.jpg" alt="">
+          <div class="overlay">
+            <h2><a href="https://www.hubbardandbell.com">Holbron Grind</a></h2>
+            <p>Trendy café, good for studying or brunch</p>
+        </div>
+    </div>
+    <div class="column">
+          <img class="image-responsive" src="./images/soho.jpg" alt="">
+            <div class="overlay">
+              <h2><a href="https://www.sohocoffee.com">SOHO Coffee Co.</a></h2>
+              <p>100% organic and fairtrade</p>
+          </div>
+      </div>
+    <div class="column">
+          <img class="image-responsive" src="./images/dept.jpg" alt="" >
+          <div class="overlay">
+            <h2><a href="https://www.departmentofcoffee.com">Department of Coffee</a></h2>
+            <p>Serious about their caffeine...</p>
+        </div>
+      </div>
+      <div class="column">
+            <img class="image-responsive" src="./images/espresso.jpg" alt="">
+            <div class="overlay">
+              <h2>The Espresso Room</h2>
+              <p>Great coffee, good food, cool atmosphere</p>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
