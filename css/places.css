@@ -33,11 +33,6 @@ padding-top: 70px;
     cursor: default;
 }
 
-.column img {
-  vertical-align: middle;
-  margin-top: 8px;
-}
-
 
 .column .overlay {
   position: absolute;
@@ -64,6 +59,10 @@ padding-top: 70px;
 }
 
 .column img {
+  vertical-align: middle;
+  margin-top: 8px;
+  width:100%;
+  height:100%;
   display: block;
   position: relative;
   -webkit-transition: all 0.35s;
@@ -112,7 +111,7 @@ padding-top: 70px;
   color: #fff;
   text-decoration: none;
 }
-.column:visited a,{
+.column:visited a, .column:visited p{
   color: #ffff;
 }
 
