@@ -1,13 +1,4 @@
-.img-circle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
-    max-width: 400px;
-    float: none;
-}
-
-h1 {
+h1 { padding-top: 50px;
   text-align: center;
   font-size: 48px;
   font-weight: bold;
@@ -18,21 +9,25 @@ h2 { text-align:center;
     color: red;
 }
 
-h3{
-  text-justify;
-  font-size: 18px;
-  font-weight: lighter;
-  letter-spacing: 0.5;
+p{
+  text-align: center;
+  font-size: 24px;
 }
-body {
-  font-family: 'Special Elite', cursive;
-  padding-top: 70px;
+
+.name { text-align: right;
+        font-size: 16px;
 }
+
+.alchemist { font-size: 16px;
+    font-style: italic;
+    color: red;}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img{
       width: 70%;
       max-height: 480;
       margin: auto;
+      padding-bottom: 50px;
   }
 
 .carousel-control.left, .carousel-control.right {
