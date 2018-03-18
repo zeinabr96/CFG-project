@@ -9,6 +9,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    </head>
     </head>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -33,6 +36,7 @@
               <div class="dropdown-menu" aria-labelledby="navbardrop">
                 <a class="dropdown-item" href="suggestions.html">Suggestions</a>
                 <a class="dropdown-item" href="contactus.html">Message</a>
+              </div>
               </ul>
               <form class="navbar-form navbar-right" id="search" role="search">
                   <div class="form-group">
@@ -46,33 +50,39 @@
 <body>
   <!---header--->
     <div class="header">
+    <a href="./places.html" class="backbtn"><i class="fas fa-angle-double-left fa-5x" style="float:left; opacity: 0.08"></i></a>
     <h1>Coffee Shops</h1>
-    <p>Scroll over to view details</p>
+    <p>Looking for a space to study that isn't the library or a good place for coffee and a bite?</p>
+    <p>Here are some of the best coffee shops near LSE.</p>
   </div>
   <!---Images--->
   <div class="row">
     <div class="column">
-          <img lass="image-responsive" src="./images/hubbard.jpg" alt="">
+          <img lass="image-responsive" src="./images/grind.jpg" alt="">
           <div class="overlay">
-            <p><a href="https://www.hubbardandbell.com">Hubbard & Bell</a></p>
+            <h2><a href="https://www.hubbardandbell.com">Holbron Grind</a></h2>
+            <p>Trendy café, good for studying or brunch</p>
         </div>
     </div>
     <div class="column">
           <img class="image-responsive" src="./images/soho.jpg" alt="">
             <div class="overlay">
-              <p><a href="https://www,sohocoffee.com">SOHO Coffee Co.</a></p>
+              <h2><a href="https://www.sohocoffee.com">SOHO Coffee Co.</a></h2>
+              <p>100% organic and fairtrade</p>
           </div>
       </div>
     <div class="column">
           <img class="image-responsive" src="./images/dept.jpg" alt="" >
           <div class="overlay">
-            <p><a href="https://www.departmentofcoffee.com">Department of Coffee</a></p>
+            <h2><a href="https://www.departmentofcoffee.com">Department of Coffee</a></h2>
+            <p>Serious about their caffeine...</p>
         </div>
       </div>
       <div class="column">
-            <img class="image-responsive" src="./images/grind.jpg" alt="">
+            <img class="image-responsive" src="./images/espresso.jpg" alt="">
             <div class="overlay">
-              <p><a href="https://www.grind.co.uk">Holborn Grind</a></p>
+              <h2>The Espresso Room</h2>
+              <p>Great coffee, good food, cool atmosphere</p>
           </div>
       </div>
   </div>

@@ -5,9 +5,13 @@
       <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
       <link href='css/bootstrap.css' rel='stylesheet'>
       <link href='css/main.css' rel='stylesheet'>
+      <link href='css/places.css' rel='stylesheet'>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    </head>
     </head>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -32,6 +36,7 @@
               <div class="dropdown-menu" aria-labelledby="navbardrop">
                 <a class="dropdown-item" href="suggestions.html">Suggestions</a>
                 <a class="dropdown-item" href="contactus.html">Message</a>
+              </div>
               </ul>
               <form class="navbar-form navbar-right" id="search" role="search">
                   <div class="form-group">
@@ -43,5 +48,42 @@
     </div>
     </nav>
 <body>
+  <!---header--->
+  <div class="header">
+      <a href="./places.html" class="backbtn"><i class="fas fa-angle-double-left fa-5x" style="float:left; opacity: 0.08"></i></a>
+  <h1>Takeaway</h1>
+  <p>Head over to these spots for quick and cheap eats.</p>
+</div>
+<!---Images--->
+<div class="row">
+  <div class="column">
+        <img class="image-responsive" src="./images/dibs.jpg" alt="">
+          <div class="overlay">
+            <h2><a href="https://www.dibs.live">Dibs</a></h2>
+            <p>"Fast, fresh, and filling." Couldn't have said it better.Head here for breakfast, pizza, and salads. </p>
+        </div>
+    </div>
+  <div class="column">
+        <img lass="image-responsive" src="./images/hiba.jpg" alt="">
+          <div class="overlay">
+            <h2><a href="https://www.hiba-express.co.uk">Hiba Express</a></h2>
+            <p>Lebanese and Palestinian cuisine. They do a great meal deal, also ideal for late-night cravings.</p>
+        </div>
+  </div>
+  <div class="column">
+        <img class="image-responsive" src="./images/wrap.jpg" alt="" >
+        <div class="overlay">
+          <h2><a href="https://www.wrapitup.co.uk">Wrap it Up!</a></h2>
+          <p>Huge wraps, filled to order at the counter.</p>
+      </div>
+    </div>
+    <div class="column">
+          <img class="image-responsive" src="./images/birleys.png" alt="">
+          <div class="overlay">
+            <h2><a href="https://www.birleysandwiches.co.uk">Birley Sandwiches</a></h2>
+            <p>For a healthy meal, check out this h's made-to-order salads, sandwiches, and soups.</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

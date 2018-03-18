@@ -9,7 +9,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
     </head>
+    <!---Navigation bar--->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
         <div class="navbar-header">
@@ -33,6 +36,7 @@
               <div class="dropdown-menu" aria-labelledby="navbardrop">
                 <a class="dropdown-item" href="suggestions.html">Suggestions</a>
                 <a class="dropdown-item" href="contactus.html">Message</a>
+              </div>
               </ul>
               <form class="navbar-form navbar-right" id="search" role="search">
                   <div class="form-group">
@@ -44,5 +48,42 @@
     </div>
     </nav>
 <body>
+  <!---header--->
+  <div class="header">
+    <a href="./places.html" class="backbtn"><i class="fas fa-angle-double-left fa-5x" style="float:left; opacity: 0.08"></i></a>
+    <h1>Bars</h1>
+    <p>Relax after a hard day of work with a drik (or two)...</p>
+  </div>
+<!---Images--->
+<div class="row">
+  <div class="column">
+        <img lass="image-responsive" src="./images/freud.png" alt="">
+        <div class="overlay">
+          <h2><a href="https://www.freud.eu">Freud Bar</a></h2>
+          <p>Cosy and casual bar in a concrete cellar, serving classic cocktails.</p>
+      </div>
+  </div>
+  <div class="column">
+        <img class="image-responsive" src="./images/cocktailclub.jpg" alt="">
+          <div class="overlay">
+            <h2><a href="https://www.londoncocktailclub.co.uk">London Cocktail Club</a></h2>
+            <p>Quirky but casual.</p>
+        </div>
+    </div>
+  <div class="column">
+        <img class="image-responsive" src="./images/gordons.jpg" alt="" >
+        <div class="overlay">
+          <h2><a href="https://www.gordonswinebar.com">Gordon's Wine Bar</a></h2>
+          <p>Odest wine bar in london, featuring a romantic candle-lit cellar.</p>
+      </div>
+    </div>
+    <div class="column">
+          <img class="image-responsive" src="./images/bodega.jpg" alt="">
+          <div class="overlay">
+            <h2><a href="https://www.labodeganegra.com">La Bodega Negra</a></h2>
+            <p>Sex shop form the outside, tequila paradise within...</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

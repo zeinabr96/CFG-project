@@ -80,15 +80,6 @@ display: block;
 }
 
 /*responsive navbar*/
-@media query and (max-width: 800px){
-    ul.nav navbar-nav li.right
-    ul.nav navbar-nav li {float: none; opacity: 1;
-    background-color:#222222}
-    .navbar{opacity: 1 !important}
-    }
-
-    }
-}
 
 /*navbar dropdown*/
 .dropdown .dropup {
@@ -155,6 +146,6 @@ a:not(.dropdown-item):hover{
   text-decoration: underline;
   color: red;
 }
-a:not(.dropdown-item):visited{
+a:not(.dropdown-item,.backbtn):visited{
   color: red;
 }
