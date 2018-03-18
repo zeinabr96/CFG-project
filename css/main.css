@@ -1,8 +1,8 @@
-body  {
+body{
   padding-top :   0px ;
   margin: 0;
   line-height: 1.5;
-  font-family: "Courier New";
+  font-family: 'Special Elite', cursive;
 }
 
 intrinsic-container {
@@ -32,9 +32,8 @@ intrinsic-container {
 .navbar:not(.dropdown-menu){
   height: 65px;
 padding: 15px 20px;
-font-size: 14px;
+font-size: 16px;
 opacity: 0.8;
-letter-spacing: 0.03em;
 display: block;
 
 }
@@ -42,6 +41,7 @@ display: block;
   display: table-cell;
     vertical-align: middle;
     padding: 0px;
+    font-family: 'Special Elite', cursive;
 }
 .navbar-brand{
   margin-right: 30px;
@@ -80,10 +80,14 @@ display: block;
 }
 
 /*responsive navbar*/
-@media query and (max-width: 820px){
+@media query and (max-width: 800px){
     ul.nav navbar-nav li.right
-    ul.nav navbar-nav li {float: none;
+    ul.nav navbar-nav li {float: none; opacity: 1;
     background-color:#222222}
+    .navbar{opacity: 1 !important}
+    }
+
+    }
 }
 
 /*navbar dropdown*/
