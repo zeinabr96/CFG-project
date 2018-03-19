@@ -150,3 +150,27 @@ a:not(.dropdown-item):hover{
 a:not(.dropdown-item,.backbtn):visited{
   color: red;
 }
+
+@media only screen and (max-width: 800px) {
+    #bs-example-navbar-collapse-9 {
+        background-color: #444;
+        width: 400px;
+     }
+     #navbardrop a{
+         float: none;
+         color: white;
+         background-color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         text-align: left;
+         opacity: 1;
+     }
+
+     .dropdown-menu a:hover {
+         background-color: grey;
+         color: white;
+         border: transparent;
+         text-decoration: none;
+    }
+ }
