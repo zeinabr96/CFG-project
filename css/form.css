@@ -1,5 +1,7 @@
 body{
   padding-top: 70px;
+  background-image: url("cafe_background.jpg");
+  background-size: cover;
 }
 form#contact{
   /* Just to center the form on the page */
