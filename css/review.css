@@ -11,23 +11,21 @@ h1 { padding-top: 50px;
 }
 
 h2 { text-align:center;
-    font-size: 30px;
+    font-size: 36px;
     color: red;
+    padding-bottom: -30px;
 }
 
 p{
   text-align: center;
   font-size: 20px;
 }
-.img-circle{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 70px;
-  max-width: 300;
-  padding-bottom: 0;
-
+.checked {
+    color: orange;
+    margin-left: auto;
+   margin-right: auto
 }
+
 .name { text-align: right;
         font-size: 16px;
 }
