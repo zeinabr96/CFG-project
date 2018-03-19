@@ -1,5 +1,8 @@
-body{
-  padding-top: 70px;
+body {
+  padding-top: 50px;
+  background-image: url("cafe_background.jpg");
+  background-size: cover;
+  font-family: 'Special Elite', cursive;
 }
 form#contact{
   /* Just to center the form on the page */
@@ -8,7 +11,7 @@ form#contact{
   width: 400px;
   /* To see the outline of the form */
   padding: 1em;
-  background-color: white;
+  background-color: #EEDFCC;
 }
 
 form div + div {
@@ -35,7 +38,7 @@ input, textarea {
   box-sizing: border-box;
 
   /* To harmonise the look and the feel of text field border */
-  background-color: #c51915;
+  background-color: white;
   opacity: 50%;
 }
 

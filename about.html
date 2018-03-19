@@ -9,14 +9,10 @@
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
       <script>
-$(about.html).ready(function(){
-    $(".active").click(function(){
-        $("#h2").fadeIn("slow");
-    });
-});
-</script>
-    </head>
-    <body>
+      $(".boxed").hide().fadeIn(2000);
+      </script>
+      <link href='css/about.css' rel='stylesheet'>
+
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
         <div class="navbar-header">
@@ -30,7 +26,7 @@ $(about.html).ready(function(){
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="about.html">About Us</a></li>
+            <li class="active" id="about_us"><a href="about.html">About Us</a></li>
             <li><a href="places.html">Places to Visit</a></li>
             <li><a href="reviewoftheweek.html">Review of the Week</a></li>
             <li class="nav-item dropdown">
@@ -51,11 +47,12 @@ $(about.html).ready(function(){
       </div>
     </div>
   </nav>
-  <head>
-    <link href='css/about.css' rel='stylesheet'>
+</head>
+
+
   <body>
     <div class="boxed">
-      <h2 style="font-style: normal;">We are a group of LSE students passionate about food</h2>
+      <h2 id="lse" style="font-style: normal;">We are a group of LSE students passionate about food</h2>
       <p> We've created a website to help you find and share the best food spots around campus. On this site you can:</p>
       <ul>
         <li>Find the best cafes to study in, affordable lunch spots and trendy bars  </li>
@@ -64,5 +61,4 @@ $(about.html).ready(function(){
       </ul>
     </div>
   </body>
-  </head>
 </html>

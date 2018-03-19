@@ -3,9 +3,10 @@
 }
 
 body {
-padding-top: 70px;
+padding-top: 50px;
     margin: 0;
     font-family: 'Special Elite', cursive;
+background: #EEDFCC;
 }
 
 .header {
