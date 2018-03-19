@@ -154,7 +154,6 @@ a:not(.dropdown-item,.backbtn):visited{
 @media only screen and (max-width: 800px) {
     #bs-example-navbar-collapse-9 {
         background-color: #444;
-        width: 400px;
      }
      #navbardrop a{
          float: none;
